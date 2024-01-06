@@ -1,0 +1,131 @@
+
+        @font-face {
+    font-family: myFirstFont;
+    src: url(fonts/eurostile.ttf);
+    font-weight: 900;
+  }
+       body{
+          max-width: 1200px;
+          margin-top: 20px;
+          margin-left: 60px;
+          margin-right: 60px;
+          padding: 0 20px;
+          color: white;
+          background-color: #21201e;
+          font-family: myFirstFont;
+          max-width: 1200px;
+        }
+        p, h1, h2, h3, a, ul{
+          margin: 0;
+          padding: 0;
+          text-decoration: none;
+          color: white;
+        }
+    
+        /* nav & footer styles */
+        nav{
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 60px;
+          padding-bottom: 10px;
+          border-bottom: 1px solid #ddd;
+          text-transform: uppercase;
+        }
+        nav ul{
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-end;
+        }
+        nav li{
+          list-style-type: none;
+          margin-left: 20px;
+        }
+        nav h1{
+          font-size: 3em;
+        }
+        nav p, nav a{
+          color: #fea609;
+          font-weight: 300;
+        }
+        footer{
+          color: #fea609;
+          text-align: center;
+          margin: 80px auto 20px;
+        }
+        h2{
+          margin-bottom: 40px;
+        }
+        h3{
+          text-transform: capitalize;
+          margin-bottom: 8px;
+        }
+        .content{
+          margin-left: 20px;}
+          
+    
+        /* index styles */
+        .blogs a{
+          display: block;
+          
+          margin: 40px 0;
+          padding-left: 30px;
+          border-left: 6px solid #fea609;
+        }
+        .blogs a:hover h1{
+          color:#fea609;
+        }
+        /* details styles */
+        .details{
+          position: relative;
+        }
+        .delete{
+          position: absolute;
+          top: 0;
+          right: 0;
+          border-radius: 50%;
+          padding: 8px;
+          background-color: #fea609;
+        }
+        .delete:hover{
+          cursor: pointer;
+          box-shadow: 1px 2px 3px white;}
+          .edit{
+            position: absolute;
+            top: 0;
+            right: 60;
+            border-radius: 50%;
+            padding: 8px;
+            background-color: #fea609;
+          }
+          .edit:hover{
+            cursor: pointer;
+            box-shadow: 1px 2px 3px white;}
+        /* create styles */
+        .create-blog form{
+          max-width: 400px;
+          margin: 0 auto;
+        }
+        .create-blog input,
+        .create-blog textarea{
+          display: block;
+          width: 100%;
+          margin: 10px 0;
+          padding: 8px;
+        }
+        .create-blog label{
+          display: block;
+          margin-top: 24px;
+        }
+        textarea{
+          height: 120px;
+        }
+        .create-blog button{
+          margin-top: 20px;
+          background: crimson;
+          color: white;
+          padding: 6px;
+          border: 0;
+          font-size: 1.2em;
+          cursor: pointer;
+        }
+        
